@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | English Menu</title>
+    <meta
+      name="description"
+      content="English Menu.A website 
+        that offers English classes to suit the client through an online agenda"
+    />
+    <link rel="shortcut icon" href="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/favicon%20.png?v=1676321017716"/>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/medium.css"
+      media="(max-width: 1040px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/small.css"
+      media="(max-width: 850px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/tiny.css"
+      media="(max-width: 377px)"
+    />
+  </head>
+  <body>
+    
+    <!-- Hero -->
+    <div class="first-info">
+      <div>
+          <ul class="socials">
+          <li class="socials__item">
+            <a href="#"class='socials__link fb'></a>
+        </li>        
+       
+         <li class="socials__item">
+           <a href="#" class="socials__link in"></a>
+        </li>
+        
+        </li>
+         <li class="socials__item">
+           <a href="#" class='socials__link g'></a>
+        </li> 
+        <li class="socials__item">
+           <a href="#" class='socials__link sm'></a>
+        </li>
+        </ul>    
+      </div>        
+        <h1>
+         Bienvenido a English Menu
+        </h1>
+        <a id="whatsapp" href="https://wa.me/+56945478152?text=Hola, quiero más información sobre las clases?" target="_blank">Consultas<img src= "https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/whatsapp.png?v=1674667765218" alt= "Whatsapp image" width= "50"></a>
+
+        <!-- 628998080016 = your number -->
+
+        <!--Source : <a target="_blank" href ="https://faq.whatsapp.com/en/general/26000030">https://faq.whatsapp.com/en/general/26000030</a>-->
+    </div>
+    <section class="et-hero-tabs">        
+      <div class="et-hero-tabs-container">
+        <div>
+          
+        </div>        
+        <a class="et-hero-tab" href="#tab-flexbox">Profesores</a>
+        <a class="et-hero-tab" href="#tab-react">Clases</a>
+        <a class="et-hero-tab" href="#tab-angular">Tutorías</a>
+        <a class="et-hero-tab" href="#tab-other">Precios</a>
+        <span class="et-hero-tab-slider"></span>
+      </div>
+      </div>
+    </section>
+    <div class="contenedor" id="logo">
+			<div class="imagen actual" id="my-logo">
+				<img  src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/Logo.png?v=1676320060919" />
+        <div class="texto" id ><a id= "main-btn" href="https://englishmenu.setmore.com" target="blank"/>Agendar Clase</a></div>
+				<div class="texto">Elije tus clases sin montos fijos</div>
+			</div>
+			
+			<div class="imagen">
+				<img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/student.jpg?v=1676319962360"/>
+        <div class="texto" id ><a id= "name" href="https://englishmenu.setmore.com" target="blank"/><img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/name-top.png?v=1676051467547"/></a></div> 
+        <div class="texto" id ><a id= "main-btn" href="https://englishmenu.setmore.com" target="blank"/>Agendar Clase</a></div>
+				<div class="texto">Aprendes desde cualquier lugar</div>
+			</div>
+			
+			<div class="imagen">
+				<img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/teacher.jpg?v=1676049514461" />
+        <div class="texto" id ><a id= "name" href="https://englishmenu.setmore.com" target="blank"/><img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/name-top.png?v=1676051467547"/></a></div> 
+        <div class="texto" id ><a id= "main-btn" href="https://englishmenu.setmore.com" target="blank"/>Agendar Clase</a></div>
+				<div class="texto">Profesores comprometidos con tu aprendizaje</div>
+			</div>
+			
+			<div class="imagen">
+				<img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/weekly-planner.jpg?v=1676049116808" />
+        <div class="texto" id ><a id= "name" href="https://englishmenu.setmore.com" target="blank"/><img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/name-top.png?v=1676051467547"/></a></div> 
+        <div class="texto" id ><a id= "main-btn" href="https://englishmenu.setmore.com" target="blank"/>Agendar Clase</a></div>
+				<div class="texto">Planes de estudio personalizados</div>
+        
+			</div>
+			
+			<a href="#" class="anterior" onclick="anterior();">&#10094;</a>
+			<a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+			
+			<div class="puntos">
+				<span class="punto activo" onclick="mostrar(0);"></span>
+				<span class="punto" onclick="mostrar(1);"></span>
+				<span class="punto" onclick="mostrar(2);"></span>
+				<span class="punto" onclick="mostrar(3);"></span>
+			</div>
+			
+			
+		</div>
+      
+    
+
+    <!-- Main -->
+    <main class="et-main">
+      <section class="et-slide" id="nosotros">
+        <div>
+        <h1>English Menu</h1>
+        <h3>Profesionales comprometidos con su labor</h3> 
+        <hr>
+        
+        <p >
+         Somos un equipo de profesionales que ponemos a su disposición una
+          variada carta de lecciones y talleres para que usted aprenda Inglés de forma sencilla y práctica, además de 
+          brindarle material de soporte y acesoría para que usted pueda seguir profundizando en aquello que 
+          aprenda en cada clase. El propósito principal de English menú es ayudarlo a alcanzar el dominio 
+          del idioma Inglés de forma natural y fluida, teniendo en cuenta sus preferencias de temática, horarios, 
+          ritmo y métodos.<br>
+        <br>
+        <img id= "img2" src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/online-class.jpg?v=1678362709762" width="800"/><div> 
+        <button class="btn"><a  href="https://englishmenu.setmore.com/aboutus" target="blank"/>Ver más</a></button> 
+        </p>
+        </div>
+      </section>
+      
+      <section class="et-slide" id="tab-flexbox">
+        <div>
+        <h1>Profesores</h1>
+        <h3>Personal 100% calificado</h3>
+        <hr>
+        <p  id="sec-prof">
+          Contamos con profesores calificados no solo en el dominio del idioma Inglés, sino también en la enseñanza efectiva de dicha lengua.
+          Cada docente ofrece diversas temáticas y tiene su propia agenda abierta para que puedas elegir lo que quieras aprender.<br>
+        <br>
+      <div class="container">
+      <div class="team">       
+        <div class="row">
+          <div class="col">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/Solmar.jpeg?v=1676579346795">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Solmar Núñez</h3>
+                <ul class="title">
+                  <li>Graduada en Enghlish Connect nivel III</li>
+                  <li>Estudiante de BYU Idaho, USA</li>      
+                </ul>               
+              </div>
+              <ul class="social">
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+              </ul>
+            </div>
+          
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/Karina.jpeg?v=1676578834167">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Iris Ayala</h3>
+                <ul class="title">
+                  <li>Licenciada en Educación mención Inglés</li>
+                  <li>Graduada en Pathway Connect</li>
+                  <li>Estudiante de Tecnología Aplicada en BYU Idaho, USA</li>
+                  <li>Desarrolladora Web</li>
+                </ul>
+                
+              </div>
+              <ul class="social">
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+              </ul>
+            </div>          
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Noelia Lobo</h3>
+                <ul class="title">
+                  <li>Graduada en Enghlish Connect nivel III</li>
+                  <li>Estudiante de BYU Idaho, USA</li>
+                  <li>Aficionada a la música</li>                  
+                </ul>
+              </div>
+              <ul class="social">
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+              </ul>
+            </div>
+          
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Chela Gatica</h3>
+                <ul class="title">
+                  <li>Graduada en Enghlish Connect nivel III</li>
+                  <li>Estudiante de BYU Idaho, USA</li>
+                  <li>Aficionada a la música</li>                  
+                </ul>
+              </div>
+              <ul class="social">
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+          <button class="btn"><a  href="https://englishmenu.setmore.com/staff" target="blank"/>Ver más</a></button>        
+        </p>
+        </div>
+      </section>
+      <section class="et-slide" id="tab-react">
+        <div>
+          <h1>Clases</h1>        
+        <h3>A tu elección</h3>
+         <hr>
+        <p >
+          Contamos con un variado menú de lecciones para que elijas de acuerdo a tus preferencias, necesidades nivel y presupuesto.
+          Solo basta con visitar nuestro munú y agendar el día y la hora que deseas, eligiendo entre las diferentes lecciones que ofrece
+          cada profesor. <br>
+          Las lecciones están diseñadas para que puedas desarrolarte en las cuatro dimensiones 
+          o habilidades básicas para la aquisición de una lengua.
+        <br>
+        <section class="icon-cards background-off-white">
+          <div class="content">
+            <div class="cards cols-3">
+              <div class="card" id="p-pink">
+                <div class="icon">
+                  <img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/hearing.png?v=1678149947118" width="140" height="100" alt="icon">
+                </div>
+
+                <div class="copy-container" >
+                  <h3 class="heading">Listening</h3>
+
+                  <div class="copy">
+                    <p>
+                     Estarás en contacto 
+                      directo con la lengua y en constante práctica
+                      para impulsar tu capacidad de
+                     comprender el idioma hablado.  
+
+                    </p>
+                  </div>
+                </div>
+               
+              </div>
+              <div class="card" id="p-yellow">
+                <div class="icon">
+                  <img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/speech-bubbles.png?v=1678150257168" width="140" height="100"alt="icon">
+                </div>
+
+                <div class="copy-container">
+                  <h3 class="heading">Speaking</h3>
+
+                  <div class="copy">
+                    <p>
+                     Podrás desarrollar habilidades 
+                      expresión oral que te permitirán a comunicarte con fluidez,
+                      confianza y con un amplio vocabulario.
+
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card" id="p-red">
+                <div class="icon">
+                  <img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/book.png?v=1678150483721" width="140" height="100" alt="icon">
+                </div>
+
+                <div class="copy-container">
+                  <h3 class="heading">Reading</h3>
+
+                  <div class="copy">
+                    <p id=>
+                          Ejercitarás también la habilidad de leer,
+                          comprender y opinar sobre lo que lees e incorporarlo en conversaciones orales.
+                          
+                        </p> 
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card" id="p-blue">
+                <div class="icon">
+                  <img src="https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/hand.png?v=1678150777399" width="140" height="100" alt="icon">
+                </div>
+
+                <div class="copy-container">
+                  <h3 class="heading">writing</h3>
+
+                  <div class="copy">                    
+                        <p id="p-green">
+                         Podrás descubrir la belleza  y la diversidad de las 
+                          estructuras gramaticales en un entorno ameno y divertido. 
+                        </p>                    
+                  </div>
+                </div>               
+              </div>                                
+
+            </div>
+          </div>
+          </section>
+        <br>  
+          
+        <button class="btn"><a  href="https://englishmenu.setmore.com/bookappointment" target="blank"/>Ver más</a></button> 
+        </p>
+        </div>
+        
+      </section>
+      <section class="et-slide" id="tab-angular">
+        <div>
+        <h1>Tutorías</h1>
+        <h3>Atención totalente personalizada</h3>
+         <hr>
+        <p id="p-blue">
+          Si lo que buscas es atención personalizada 
+          e individual para poder alcanzar tus metas y objetivos en cuanto
+          al aprendizaje del idioma inglés, nos  adaptamos a tus intereses 
+          y tus necesidades.  Por esa razón nuestro equipo te ayudarán a establecer metas y objetivos 
+          reales a corto y largo plazo que te acompañarán en este proceso de 
+          aprendizaje. Nuestros tutores estarán a tu lado para poder capacitarte, 
+          apoyarte, ayudarte y motivarte a para que cumplas tus desafíos y objetivos.
+          En base a un programa personalmente preparado para ti, juntos podremos 
+          lograr aquellos sueños que puedan parecer lejanos pero, que con nuestra ayuda, los 
+          alcanzarás mucho antes de lo que imaginabas. <br>
+        <br>
+        <button class="btn" href="https://englishmenu.setmore.com/" target="blank">Ver más</button>
+        </p>
+        </div>
+      </section>
+      <section class="et-slide" id="tab-other">
+        <div>
+        <h1>Precios</h1>
+        <h3>Se ajustan a tu presupuesto</h3>
+         <hr>
+        <p >
+          Contamos con un variado menú de lecciones para que elijas de acuerdo a tus preferencias, necesidades nivel y presupuesto.
+          Solo basta con visitar nuestro munú y agendar el día y la hora que deseas, eligiendo entre las diferentes lecciones que ofrece
+          cada profesor. <br>
+        <br>
+        <button class="btn" href="https://englishmenu.setmore.com/" target="blank">Ver más</button>
+        </p>
+        </div>
+      </section>
+      <button class="fa fa-arrow-up myButton" id="top"><img src= "https://cdn.glitch.global/314bc9df-6982-42f2-b3bf-76ab0aa9d1fa/arrow1.png?v=1678241662719"/></button>
+    </main>
+    <footer>
+      &copy;<span class="year">2022</span> English-Menu | Iris Ayala
+      <p class="footer_update">
+        Last Update:
+        <span id="modified"> </span>
+      </p>
+      <a href="#">Terms of Use</a>      
+    </footer>   
+    <script src="./js/hero-slaider.js"></script>
+    <script src="./js/slider-nav.js"></script>
+    <script src="./js/scroll-up.js"></script>
+    <script src="./js/upsate.js"></script>  
+  </body>
+</html>
